@@ -1,0 +1,65 @@
+{
+    // Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
+    // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+    // same ids are connected.
+    // Example:
+    "code map input": {
+        "prefix": "map",
+        "body": [
+            "map(int,input().split())",
+            ""
+        ],
+        "description": "code map input"
+    },
+    "code split input": {
+        "prefix": "split",
+        "body": [
+            "input().split()",
+            ""
+        ],
+        "description": "code split input"
+    },
+    "code input": {
+        "prefix": "input",
+        "body": [
+            "input()",
+            ""
+        ],
+        "description": "code input"
+    },
+    "code int input": {
+        "prefix": "int",
+        "body": [
+            "int(input())",
+            ""
+        ],
+        "description": "code int input"
+    },
+    "input to sys.stdin.readline": {
+        "prefix": "sys",
+        "body": [
+            "import sys",
+            "input = sys.stdin.readline",
+            ""
+        ],
+        "description": "input to sys.stdin.readline"
+    },
+    "mod": {
+        "prefix": "mod",
+        "body": [
+            "mod = 10 ** 9 + 7",
+            ""
+        ],
+        "description": "mod"
+    }
+	"string list": {
+        "prefix": "string list",
+        "body": [
+            "S = list(input())",
+            "S.pop(-1)",
+            ""
+        ],
+        "description": "mod"
+    }
+}
