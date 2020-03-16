@@ -1,5 +1,8 @@
 import sys
 input = sys.stdin.readline
 
-a = map(int, input().split())
-b = map(int, input().split())
+S = input()
+if S.count("A") > 0 and S.count("B") > 0:
+    print("Yes")
+else:
+    print("No")

@@ -1,5 +1,13 @@
+# import numpy as np
 import sys
 input = sys.stdin.readline
 
-a = map(int, input().split())
-b = map(int, input().split())
+N, P = map(int, input().split())
+S = input()
+
+for 
+
+a = [x for x in range(11)]
+
+print(a)
+print(sum(a))

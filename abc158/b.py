@@ -1,5 +1,6 @@
 import sys
 input = sys.stdin.readline
 
-a = map(int, input().split())
-b = map(int, input().split())
+N, A, B = map(int, input().split())
+div, mod = divmod(N, (A + B))
+print(div * A + min(mod, A))
