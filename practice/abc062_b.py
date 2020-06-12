@@ -5,5 +5,5 @@ for _ in range(H):
 
 print("#" * (W + 2))
 for x in X:
-    print("#", x, "#", sep="")    
-print("#"*(W+2))
+    print("#", x, "#", sep="")
+print("#" * (W + 2))

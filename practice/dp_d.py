@@ -1,7 +1,7 @@
 N, W = map(int, input().split())
 bag = [list(map(int, input().split())) for i in range(N)]
 
-dp = [-1] * (W+1)
+dp = [-1] * (W + 1)
 print(dp)
 
 print(bag)

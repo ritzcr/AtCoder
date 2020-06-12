@@ -1,5 +1,3 @@
-import math
-
 X = int(input())
 maxBeki = 1
 for b in range(1, X, 1):

@@ -6,7 +6,7 @@ flag = False
 while True:
     for x in range(N):
         if A[x] % 2 == 0:
-            A[x] = A[x]/2            
+            A[x] = A[x] / 2
         else:
             flag = True
     if flag:

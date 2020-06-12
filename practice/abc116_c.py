@@ -1,10 +1,9 @@
 N = int(input())
 h = list(map(int, input().split()))
-sumh = 0
-maxH = max(h)
-for x in range(maxH, 0, -1):
-    print(x)
-    sumh += h.count(maxH)
-    h.index()
 
+sumh = h[0]
+for x in range(N):
+    if x != N - 1:
+        if h[x + 1] > h[x]:
+            sumh += h[x + 1] - h[x]
 print(sumh)
