@@ -1,4 +1,12 @@
 {
+    "code int list input": {
+        "prefix": "list",
+        "body": [
+            "list(map(int,input().split()))",
+            ""
+        ],
+        "description": "int list"
+    },
     "code map input": {
         "prefix": "map",
         "body": [
@@ -56,5 +64,56 @@
             ""
         ],
         "description": "mod"
+    },
+    "if bool": {
+        "prefix": "if bool",
+        "body": [
+            "if flag:",
+			"	print(\"Yes\")",
+            "else:"
+			"	print(\"No\")",
+            ""
+        ],
+        "description": "if bool"
+    },
+    "Array Input Comprehension": {
+        "prefix": "Array Input Comprehension",
+        "body": [
+            "[int(input()) for i in range(N)]",
+            ""
+        ],
+        "description": "Array Input Comprehension"
+    },
+    "Two-Dimensional Array": {
+        "prefix": "Two-Dimensional Array",
+        "body": [
+            "[list(map(int,input().split())) for i in range(N)]",
+            ""
+        ],
+        "description": "Two-Dimensional Array"
+    },
+    "Number": {
+        "prefix": "N",
+        "body": [
+            "N = int(input())",
+            ""
+        ],
+        "description": "N for number"
+    },
+    "array": {
+        "prefix": "a",
+        "body": [
+            "a = [int(input()) for i in range(N)]",
+            ""
+        ],
+        "description": "a for array"
+    },
+    "String": {
+        "prefix": "S",
+        "body": [
+            "S = input()",
+            ""
+        ],
+        "description": "S for String"
     }
 }
